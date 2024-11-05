@@ -7,3 +7,67 @@ Template:   astra
 Version:    1.0
 License:    GNU General Public License v2 or later
 */
+
+:root {
+    --rose:#E0B9B4;
+    --rouge:#C02E44;
+    --vert:#3B8E46;
+}
+
+
+/* Header */
+.my-custom-header {
+    display:flex;
+    flex-direction: row;
+    padding-left:20px;
+    padding-right:0px;
+}
+
+.logo_header {
+    display : flex;
+    width : 20%;
+    padding-top:1.5em;
+}
+
+.menu-container {
+    flex:1 1 200%;
+    min-width:200px;
+    text-align: right;
+    height:4em;
+}
+
+.menu-principal ul {
+    flex:1 1 100%;
+    height:4em;
+}
+
+.menu-principal li {
+    /*border : 2px solid green;*/
+    display:inline-block;
+    padding-right:7%;
+    padding-left:7%;
+    padding-top:1em;
+    height:4em;
+}
+
+.menu-item a {
+    color:black;
+}
+
+.menu-item a:hover {
+    color:var(--rouge);
+}
+
+.classe_bouton_commander {
+    background-color:var(--rose);
+}
+
+.classe_bouton_commander a {
+    background-color:var(--rose);
+    color:#ffffff;
+}
+
+.classe_bouton_commander a:hover {
+    background-color:var(--rose);
+    color:var(--rouge);
+}

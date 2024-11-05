@@ -1,0 +1,10 @@
+
+.my-custom-header {
+    border:2pw solid blue;
+}
+
+.logo_header {
+    display : block;
+    width : 10%; 
+    border:2px solid red;
+}

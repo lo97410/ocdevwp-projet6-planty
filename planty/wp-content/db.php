@@ -1,0 +1,1 @@
+C:/xampp/htdocs/ocdevwp-projet6/planty/wp-content/plugins/query-monitor/wp-content/db.php
