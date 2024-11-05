@@ -21,19 +21,22 @@ License:    GNU General Public License v2 or later
     flex-direction: row;
     padding-left:20px;
     padding-right:0px;
+    z-index: 10;
 }
 
 .logo_header {
     display : flex;
-    width : 20%;
+    width : 12em;
+    min-width:10em;
     padding-top:1.5em;
 }
 
+/* Menu */
 .menu-container {
     flex:1 1 200%;
-    min-width:200px;
     text-align: right;
     height:4em;
+    flex-wrap: nowrap;
 }
 
 .menu-principal ul {
@@ -42,10 +45,9 @@ License:    GNU General Public License v2 or later
 }
 
 .menu-principal li {
-    /*border : 2px solid green;*/
     display:inline-block;
-    padding-right:7%;
-    padding-left:7%;
+    padding-right:5%;
+    padding-left:5%;
     padding-top:1em;
     height:4em;
 }
@@ -71,3 +73,69 @@ License:    GNU General Public License v2 or later
     background-color:var(--rose);
     color:var(--rouge);
 }
+
+/* Footer */
+.my_custom_footer {
+    text-align:center;
+    height:7em;
+}
+
+.my_custom_footer a {
+    color:black;
+    height:2em;
+    display:block;
+    position:relative;
+    top:-1em;
+
+}
+
+.footer_cans {
+    display:block;
+    width:100%;
+    height:5em;
+    background-image: url("http://127.0.0.1/ocdevwp-projet6/planty/wp-content/uploads/2024/11/canettes.png");
+    background-size:contain;
+}
+
+
+/* page d'accueil */
+.container1_accueil {
+    position:relative;
+    display:flex;
+}
+
+.titre_h1_accueil {
+    transform: scale(1, 0.4);
+    display:block;
+    width:100%;
+}
+
+.cannette_accueil {
+    display:block;
+    text-align:center;
+}
+
+.titre_h2_accueil h2 {
+    font-size:1.6em;
+    letter-spacing: 0.1em;
+}
+
+.titre_h2_02_accueil h2 {
+    transform: scale(2, 1);
+    font-size:1.6em;
+    font-weight:bold;
+}
+
+.image_les_gouts_accueil {
+    position:absolute;
+}
+
+.conteneur_client_accueil {
+    margin-top: auto;
+}
+
+.noms_clients_accueil h3 {
+    letter-spacing: 0.1em;
+}
+
+

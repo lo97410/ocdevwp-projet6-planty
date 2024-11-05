@@ -31,7 +31,7 @@ add_action('astra_header', 'my_custom_header_content');*/
 function my_custom_header() {
     ?>
     <header class="my-custom-header">
-        <a href="#" title="Planty : accueil" >
+        <a href="http://127.0.0.1/ocdevwp-projet6/planty/" title="Planty : accueil" >
             <img src="http://127.0.0.1/ocdevwp-projet6/planty/wp-content/uploads/2024/10/Logo-1.png" title="Planty : accueil" alt="Planty : accueil" class="logo_header" />
         </a>
 
@@ -48,27 +48,13 @@ function my_custom_header() {
     </header>
     <?php
 }
-add_action('get_header', 'my_custom_header');
+add_action('astra_header', 'my_custom_header');
 
 
-add_filter('wp_nav_menu_objects', 'modify_menu_items_based_on_login', 10, 2);
-
+/* Custom menu +/- et css */
 function modify_menu_items_based_on_login($items, $args) {
     // Boucle sur chaque élément du menu.
     foreach ($items as $key => $item) {
-        /*var_dump($item);
-        echo "<br/><br/>";*/
-        // Modifier le texte d'un élément spécifique pour les utilisateurs connectés
-        /*if (is_user_logged_in()) {
-            if ($item->title == 'Connexion') {
-                $item->title = 'Déconnexion'; // Remplace "Connexion" par "Déconnexion"
-                $item->url = wp_logout_url(); // URL de déconnexion
-            }
-        } else {
-            if ($item->title == 'Mon Profil') {
-                unset($items[$key]); // Supprime "Mon Profil" si l'utilisateur n'est pas connecté
-            }
-        }*/
 
         // Masquer Admin si utilisateur non connecté.
         if(!is_user_logged_in() && $item->title == "Admin") {
@@ -82,3 +68,31 @@ function modify_menu_items_based_on_login($items, $args) {
     }
     return $items;
 }
+add_filter('wp_nav_menu_objects', 'modify_menu_items_based_on_login', 10, 2);
+
+
+/* Custom footer */
+function my_custom_footer () {
+    if(is_page()) {
+        $page_id = get_queried_object_id();
+        $page_title = get_the_title($page_id);
+        if($page_title != "Commander") {
+            ?>
+                <footer class="my_custom_footer">
+                    <div class="footer_cans"> </div><br/>
+                    <a href="http://127.0.0.1/ocdevwp-projet6/planty/mentions-legales/" title="Mentions légales" >Mentions légales</a>
+                </footer>
+            <?php
+        }
+        else {
+            ?>
+                <footer class="my_custom_footer">
+                    <a href="http://127.0.0.1/ocdevwp-projet6/planty/mentions-legales/" title="Mentions légales" >Mentions légales</a>
+                </footer>
+            <?php
+        }
+    }
+
+    
+}
+add_action('astra_footer', 'my_custom_footer');
