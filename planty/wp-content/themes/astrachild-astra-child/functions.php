@@ -76,7 +76,7 @@ function my_custom_footer () {
     if(is_page()) {
         $page_id = get_queried_object_id();
         $page_title = get_the_title($page_id);
-        if($page_title != "Commander") {
+        if($page_title == "Accueil" || $page_title == "Admin") {
             ?>
                 <footer class="my_custom_footer">
                     <div class="footer_cans"> </div><br/>
@@ -85,11 +85,21 @@ function my_custom_footer () {
             <?php
         }
         else {
+            if($page_title == "Nous rencontrer"){
             ?>
+                <footer class="my_custom_footer">
+                <div class="footer_cans_contact" > </div><br/>
+                    <a href="http://127.0.0.1/ocdevwp-projet6/planty/mentions-legales/" title="Mentions légales" >Mentions légales</a>
+                </footer>
+            <?php
+            }
+            else {
+                ?>
                 <footer class="my_custom_footer">
                     <a href="http://127.0.0.1/ocdevwp-projet6/planty/mentions-legales/" title="Mentions légales" >Mentions légales</a>
                 </footer>
             <?php
+            }
         }
     }
 

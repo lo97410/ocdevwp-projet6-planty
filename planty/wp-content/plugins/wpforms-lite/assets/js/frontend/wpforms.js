@@ -2500,7 +2500,7 @@ var wpforms = window.wpforms || ( function( document, window, $ ) { // eslint-di
 			const $field = $paymentField.closest( '.wpforms-field' ),
 				fieldId = $field.data( 'field-id' ),
 				type = $paymentField.prop( 'type' ),
-				isFieldVisible = $field.is( ':visible' );
+				isFieldVisible = $field.css( 'display' ) === 'block';
 
 			if ( type === 'checkbox' || type === 'radio' || type === 'select-one' ) {
 				// Show only selected items.
@@ -3420,9 +3420,11 @@ var wpforms = window.wpforms || ( function( document, window, $ ) { // eslint-di
 			$.each( errors, function( type, html ) {
 				switch ( type ) {
 					case 'header':
+					case 'header_styled':
 						handleHeaderError( html );
 						break;
 					case 'footer':
+					case 'footer_styled':
 						handleFooterError( html );
 						break;
 					case 'recaptcha':

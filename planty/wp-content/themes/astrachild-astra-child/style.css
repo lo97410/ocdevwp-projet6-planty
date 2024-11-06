@@ -14,6 +14,14 @@ License:    GNU General Public License v2 or later
     --vert:#3B8E46;
 }
 
+h1 {
+    transform: scale(1.5, 1);
+}
+
+h2 {
+    transform: scale(1.2, 0.8);
+    font-weight:bold;
+}
 
 /* Header */
 .my-custom-header {
@@ -35,13 +43,13 @@ License:    GNU General Public License v2 or later
 .menu-container {
     flex:1 1 200%;
     text-align: right;
-    height:4em;
+    height:3.5em;
     flex-wrap: nowrap;
 }
 
 .menu-principal ul {
     flex:1 1 100%;
-    height:4em;
+    height:3.5em;
 }
 
 .menu-principal li {
@@ -49,7 +57,7 @@ License:    GNU General Public License v2 or later
     padding-right:5%;
     padding-left:5%;
     padding-top:1em;
-    height:4em;
+    height:3.5em;
 }
 
 .menu-item a {
@@ -85,8 +93,7 @@ License:    GNU General Public License v2 or later
     height:2em;
     display:block;
     position:relative;
-    top:-1em;
-
+    margin-top:10px;
 }
 
 .footer_cans {
@@ -97,6 +104,14 @@ License:    GNU General Public License v2 or later
     background-size:contain;
 }
 
+.footer_cans_contact {
+    display:block;
+    width:100%;
+    height:5em;
+    background-color:#ECE2DA;
+    background-image: url("http://127.0.0.1/ocdevwp-projet6/planty/wp-content/uploads/2024/11/canettes.png");
+    background-size:contain;
+}
 
 /* page d'accueil */
 .container1_accueil {
@@ -105,7 +120,7 @@ License:    GNU General Public License v2 or later
 }
 
 .titre_h1_accueil {
-    transform: scale(1, 0.4);
+    /*transform: scale(1, 0.4);*/
     display:block;
     width:100%;
 }
@@ -116,14 +131,12 @@ License:    GNU General Public License v2 or later
 }
 
 .titre_h2_accueil h2 {
-    font-size:1.6em;
     letter-spacing: 0.1em;
 }
 
 .titre_h2_02_accueil h2 {
-    transform: scale(2, 1);
-    font-size:1.6em;
-    font-weight:bold;
+    /*transform: scale(2, 1);
+    font-weight:bold;*/
 }
 
 .image_les_gouts_accueil {
@@ -137,5 +150,39 @@ License:    GNU General Public License v2 or later
 .noms_clients_accueil h3 {
     letter-spacing: 0.1em;
 }
+
+.envois_contact {
+    Bckground-color:#ECE2DA;
+    color:white;
+    text-align:center;
+}
+
+.wpforms-submit {
+    Bckground-color:#ECE2DA;
+    color:white;
+    text-align:center;
+}
+
+/* Commander */
+.jet-form-builder__field-wrap input[type=number] {
+    display:flex;
+    justify-content: center;
+    width:4em;
+}
+
+
+/* Écrans de moins de 768px */
+@media (max-width: 768px) {
+    h2 {
+      /*font-size: 1.8em;*/
+    }
+  }
+  
+  /* Écrans de moin de 480 px */
+  @media (max-width: 480px) {
+    h2 {
+      /*font-size: 1.5em;*/
+    }
+  }
 
 

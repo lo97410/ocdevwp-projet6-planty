@@ -1,0 +1,83 @@
+0000.000 (0) Opened log file at time: Wed, 06 Nov 2024 07:30:54 +0000 on http://127.0.0.1/ocdevwp-projet6/planty
+0000.013 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.6 WP: 6.6.2 PHP: 8.2.12 (apache2handler, Windows NT PCTAFNOMAD 10.0 build 22631 (Windows 11) AMD64) MySQL: 10.4.32-MariaDB (max packet size=1048576) WPLANG: fr_FR Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 81.5M | 86M) multisite: N openssl: OpenSSL 3.0.11 19 Sep 2023 mcrypt: N LANG:  ZipArchive::addFile: N
+0000.016 (0) Free space on disk containing Updraft's temporary directory: 12750.3 MB
+0000.020 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.026 (0) Semaphore (fd, wp_options) being initialised
+0000.031 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.036 (0) Set semaphore last lock (fd) time to 2024-11-06 07:30:54
+0000.037 (0) Semaphore lock (fd) complete
+0000.043 (0) Backup run: resumption=0, nonce=0b99487ad32e, file_nonce=0b99487ad32e begun at=1730878254 (0s ago), job type=backup
+0000.046 (0) Scheduling a resumption (1) after 300 seconds (1730878554) in case this run gets aborted
+0000.062 (0) Checking if we have a zip executable available
+0000.066 (0) Zip engine: ZipArchive (a.k.a. php-zip) is not available or is disabled (will use PclZip (much slower) if needed)
+0000.068 (0) Creation of backups of directories: beginning
+0000.074 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0002.857 (0) Total entities for the zip file: 1520 directories, 5951 files (0 skipped as non-modified), 131.9 MB
+0002.861 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 135116.5 KB, split: 409600 KB)
+0002.911 (0) Zip: backup_2024-11-06-0830_Planty_0b99487ad32e-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0002.934 (0) Zip: backup_2024-11-06-0830_Planty_0b99487ad32e-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0002.966 (0) Zip: backup_2024-11-06-0830_Planty_0b99487ad32e-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0003.000 (0) Zip: backup_2024-11-06-0830_Planty_0b99487ad32e-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0003.038 (0) Zip: backup_2024-11-06-0830_Planty_0b99487ad32e-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0003.070 (0) Zip: backup_2024-11-06-0830_Planty_0b99487ad32e-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0003.100 (0) Zip: backup_2024-11-06-0830_Planty_0b99487ad32e-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0003.128 (0) Zip: backup_2024-11-06-0830_Planty_0b99487ad32e-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0003.152 (0) Zip: backup_2024-11-06-0830_Planty_0b99487ad32e-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0003.177 (0) Zip: backup_2024-11-06-0830_Planty_0b99487ad32e-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0003.212 (0) Zip: backup_2024-11-06-0830_Planty_0b99487ad32e-plugins.zip.tmp: 1100 files added (on-disk size: 0 KB)
+0003.237 (0) Zip: backup_2024-11-06-0830_Planty_0b99487ad32e-plugins.zip.tmp: 1200 files added (on-disk size: 0 KB)
+0003.263 (0) Zip: backup_2024-11-06-0830_Planty_0b99487ad32e-plugins.zip.tmp: 1300 files added (on-disk size: 0 KB)
+0003.305 (0) Zip: backup_2024-11-06-0830_Planty_0b99487ad32e-plugins.zip.tmp: 1400 files added (on-disk size: 0 KB)
+0003.339 (0) Zip: backup_2024-11-06-0830_Planty_0b99487ad32e-plugins.zip.tmp: 1500 files added (on-disk size: 0 KB)
+0003.362 (0) Zip: backup_2024-11-06-0830_Planty_0b99487ad32e-plugins.zip.tmp: 1600 files added (on-disk size: 0 KB)
+0003.403 (0) Zip: backup_2024-11-06-0830_Planty_0b99487ad32e-plugins.zip.tmp: 1700 files added (on-disk size: 0 KB)
+0003.445 (0) Zip: backup_2024-11-06-0830_Planty_0b99487ad32e-plugins.zip.tmp: 1800 files added (on-disk size: 0 KB)
+0003.471 (0) Zip: backup_2024-11-06-0830_Planty_0b99487ad32e-plugins.zip.tmp: 1900 files added (on-disk size: 0 KB)
+0003.511 (0) Zip: backup_2024-11-06-0830_Planty_0b99487ad32e-plugins.zip.tmp: 2000 files added (on-disk size: 0 KB)
+0003.552 (0) Zip: backup_2024-11-06-0830_Planty_0b99487ad32e-plugins.zip.tmp: 2100 files added (on-disk size: 0 KB)
+0003.576 (0) Zip: backup_2024-11-06-0830_Planty_0b99487ad32e-plugins.zip.tmp: 2200 files added (on-disk size: 0 KB)
+0003.603 (0) Zip: backup_2024-11-06-0830_Planty_0b99487ad32e-plugins.zip.tmp: 2300 files added (on-disk size: 0 KB)
+0003.628 (0) Zip: backup_2024-11-06-0830_Planty_0b99487ad32e-plugins.zip.tmp: 2400 files added (on-disk size: 0 KB)
+0003.655 (0) Zip: backup_2024-11-06-0830_Planty_0b99487ad32e-plugins.zip.tmp: 2500 files added (on-disk size: 0 KB)
+0003.698 (0) Zip: backup_2024-11-06-0830_Planty_0b99487ad32e-plugins.zip.tmp: 2600 files added (on-disk size: 0 KB)
+0003.725 (0) Zip: backup_2024-11-06-0830_Planty_0b99487ad32e-plugins.zip.tmp: 2700 files added (on-disk size: 0 KB)
+0003.759 (0) Zip: backup_2024-11-06-0830_Planty_0b99487ad32e-plugins.zip.tmp: 2800 files added (on-disk size: 0 KB)
+0003.807 (0) Zip: backup_2024-11-06-0830_Planty_0b99487ad32e-plugins.zip.tmp: 2900 files added (on-disk size: 0 KB)
+0003.831 (0) Zip: backup_2024-11-06-0830_Planty_0b99487ad32e-plugins.zip.tmp: 3000 files added (on-disk size: 0 KB)
+0003.858 (0) Zip: backup_2024-11-06-0830_Planty_0b99487ad32e-plugins.zip.tmp: 3100 files added (on-disk size: 0 KB)
+0003.894 (0) Zip: backup_2024-11-06-0830_Planty_0b99487ad32e-plugins.zip.tmp: 3200 files added (on-disk size: 0 KB)
+0003.922 (0) Zip: backup_2024-11-06-0830_Planty_0b99487ad32e-plugins.zip.tmp: 3300 files added (on-disk size: 0 KB)
+0003.946 (0) Zip: backup_2024-11-06-0830_Planty_0b99487ad32e-plugins.zip.tmp: 3400 files added (on-disk size: 0 KB)
+0003.970 (0) Zip: backup_2024-11-06-0830_Planty_0b99487ad32e-plugins.zip.tmp: 3500 files added (on-disk size: 0 KB)
+0004.006 (0) Zip: backup_2024-11-06-0830_Planty_0b99487ad32e-plugins.zip.tmp: 3600 files added (on-disk size: 0 KB)
+0004.038 (0) Zip: backup_2024-11-06-0830_Planty_0b99487ad32e-plugins.zip.tmp: 3700 files added (on-disk size: 0 KB)
+0004.067 (0) Zip: backup_2024-11-06-0830_Planty_0b99487ad32e-plugins.zip.tmp: 3800 files added (on-disk size: 0 KB)
+0004.091 (0) Zip: backup_2024-11-06-0830_Planty_0b99487ad32e-plugins.zip.tmp: 3900 files added (on-disk size: 0 KB)
+0004.113 (0) Zip: backup_2024-11-06-0830_Planty_0b99487ad32e-plugins.zip.tmp: 4000 files added (on-disk size: 0 KB)
+0004.154 (0) Zip: backup_2024-11-06-0830_Planty_0b99487ad32e-plugins.zip.tmp: 4100 files added (on-disk size: 0 KB)
+0004.176 (0) Zip: backup_2024-11-06-0830_Planty_0b99487ad32e-plugins.zip.tmp: 4200 files added (on-disk size: 0 KB)
+0004.207 (0) Zip: backup_2024-11-06-0830_Planty_0b99487ad32e-plugins.zip.tmp: 4300 files added (on-disk size: 0 KB)
+0004.230 (0) Zip: backup_2024-11-06-0830_Planty_0b99487ad32e-plugins.zip.tmp: 4400 files added (on-disk size: 0 KB)
+0004.254 (0) Zip: backup_2024-11-06-0830_Planty_0b99487ad32e-plugins.zip.tmp: 4500 files added (on-disk size: 0 KB)
+0004.284 (0) Zip: backup_2024-11-06-0830_Planty_0b99487ad32e-plugins.zip.tmp: 4600 files added (on-disk size: 0 KB)
+0004.313 (0) Zip: backup_2024-11-06-0830_Planty_0b99487ad32e-plugins.zip.tmp: 4700 files added (on-disk size: 0 KB)
+0004.338 (0) Zip: backup_2024-11-06-0830_Planty_0b99487ad32e-plugins.zip.tmp: 4800 files added (on-disk size: 0 KB)
+0004.360 (0) Zip: backup_2024-11-06-0830_Planty_0b99487ad32e-plugins.zip.tmp: 4900 files added (on-disk size: 0 KB)
+0004.393 (0) Zip: backup_2024-11-06-0830_Planty_0b99487ad32e-plugins.zip.tmp: 5000 files added (on-disk size: 0 KB)
+0004.420 (0) Zip: backup_2024-11-06-0830_Planty_0b99487ad32e-plugins.zip.tmp: 5100 files added (on-disk size: 0 KB)
+0004.443 (0) Zip: backup_2024-11-06-0830_Planty_0b99487ad32e-plugins.zip.tmp: 5200 files added (on-disk size: 0 KB)
+0004.467 (0) Zip: backup_2024-11-06-0830_Planty_0b99487ad32e-plugins.zip.tmp: 5300 files added (on-disk size: 0 KB)
+0004.495 (0) Zip: backup_2024-11-06-0830_Planty_0b99487ad32e-plugins.zip.tmp: 5400 files added (on-disk size: 0 KB)
+0004.543 (0) Zip: backup_2024-11-06-0830_Planty_0b99487ad32e-plugins.zip.tmp: 5500 files added (on-disk size: 0 KB)
+0004.582 (0) Zip: backup_2024-11-06-0830_Planty_0b99487ad32e-plugins.zip.tmp: 5600 files added (on-disk size: 0 KB)
+0004.619 (0) Zip: backup_2024-11-06-0830_Planty_0b99487ad32e-plugins.zip.tmp: 5700 files added (on-disk size: 0 KB)
+0004.650 (0) Zip: backup_2024-11-06-0830_Planty_0b99487ad32e-plugins.zip.tmp: 5800 files added (on-disk size: 0 KB)
+0004.685 (0) Zip: backup_2024-11-06-0830_Planty_0b99487ad32e-plugins.zip.tmp: 5900 files added (on-disk size: 0 KB)
+0226.031 (0) PHP event: code E_WARNING: rename(C:\xampp\htdocs\ocdevwp-projet6\planty/wp-content/updraft/pclzip-672b1c10a01b1.tmp,C:\xampp\htdocs\ocdevwp-projet6\planty/wp-content/updraft/backup_2024-11-06-0830_Planty_0b99487ad32e-plugins.zip.tmp): Le fichier spécifié est introuvable (code: 2) (line 5659, C:\xampp\htdocs\ocdevwp-projet6\planty\wp-admin\includes\class-pclzip.php)
+0226.035 (0) PHP event: code E_WARNING: copy(C:\xampp\htdocs\ocdevwp-projet6\planty/wp-content/updraft/pclzip-672b1c10a01b1.tmp): Failed to open stream: No such file or directory (line 5662, C:\xampp\htdocs\ocdevwp-projet6\planty\wp-admin\includes\class-pclzip.php)
+0233.344 (0) User request for abort: backup job will be immediately halted
+0233.348 (0) Decremented the semaphore (fd) by 1
+0233.352 (0) Semaphore (fd) unlocked
+0233.358 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0233.365 (0) No email will/can be sent - the user has not configured an email address.
+0233.368 (0) The backup was aborted by the user
