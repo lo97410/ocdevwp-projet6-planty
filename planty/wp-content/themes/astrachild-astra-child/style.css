@@ -22,15 +22,15 @@ body {
 }
 
 h1 {
-    font-weight:800;!important
+    font-weight:800;
 }
 
 h2 {
-    font-weight:700;!important
+    font-weight:700;
 }
 
 h3 {
-    font-weight:600;!important
+    font-weight:600;
 }
 
 textarea {
@@ -163,13 +163,13 @@ textarea {
 }
 
 .envois_contact {
-    Bckground-color:#ECE2DA;
+    Background-color:#ECE2DA;
     color:white;
     text-align:center;
 }
 
 .wpforms-submit {
-    Bckground-color:#ECE2DA;
+    Background-color:#ECE2DA;
     color:white;
     text-align:center;
 }
