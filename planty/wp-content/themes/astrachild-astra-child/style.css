@@ -9,18 +9,25 @@ License:    GNU General Public License v2 or later
 */
 
 :root {
-    --rose:#E0B9B4;
-    --rouge:#C02E44;
-    --vert:#3B8E46;
+    --couleur1:#D2776A;
+    --couleur2:#DC9F96;
+    --couleur3:#C02E44;
+    --couleur4:#3B8E46;
+    --couleur5:#E0B9B4;
+    --couleur6:#ECE2DA;
+}
+
+body {
+    background-color:white;
 }
 
 h1 {
-    transform: scale(1.5, 1);
+    /*transform: scale(1.5, 1);*/
 }
 
 h2 {
-    transform: scale(1.2, 0.8);
-    font-weight:bold;
+    /*transform: scale(1.2, 0.8);
+    font-weight:800;*/
 }
 
 /* Header */
@@ -30,6 +37,7 @@ h2 {
     padding-left:20px;
     padding-right:0px;
     z-index: 10;
+    background-color:white;
 }
 
 .logo_header {
@@ -65,27 +73,31 @@ h2 {
 }
 
 .menu-item a:hover {
-    color:var(--rouge);
+    color:var(--couleur3);
 }
 
 .classe_bouton_commander {
-    background-color:var(--rose);
+    background-color:var(--couleur5);
 }
 
 .classe_bouton_commander a {
-    background-color:var(--rose);
     color:#ffffff;
 }
 
+.classe_bouton_commander:hover {
+    background-color:var(--couleur3);
+    color:white;
+}
+
 .classe_bouton_commander a:hover {
-    background-color:var(--rose);
-    color:var(--rouge);
+    background-color:var(--couleur3);
+    color:white;
 }
 
 /* Footer */
 .my_custom_footer {
     text-align:center;
-    height:7em;
+    background-color:white;
 }
 
 .my_custom_footer a {
@@ -94,6 +106,9 @@ h2 {
     display:block;
     position:relative;
     margin-top:10px;
+    background-color:white;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .footer_cans {
@@ -108,7 +123,7 @@ h2 {
     display:block;
     width:100%;
     height:5em;
-    background-color:#ECE2DA;
+    background-color:var(--couleur6);
     background-image: url("http://127.0.0.1/ocdevwp-projet6/planty/wp-content/uploads/2024/11/canettes.png");
     background-size:contain;
 }
@@ -165,24 +180,155 @@ h2 {
 
 /* Commander */
 .jet-form-builder__field-wrap input[type=number] {
-    display:flex;
+    /*display:flex;
     justify-content: center;
-    width:4em;
+    width:4em;*/
 }
 
+.wp-elements-0849d444e3bbd047008e381015b8a4e5 {
+    display:flex;
+    flex-direction: row;
+}
+
+.wp-elements-0849d444e3bbd047008e381015b8a4e5 .wp-block-column {
+    flex-direction: column;
+    flex:1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+}
+
+.wp-elements-0849d444e3bbd047008e381015b8a4e5 .wp-block-column img {
+    flex:1;
+}
+
+.wp-elements-0849d444e3bbd047008e381015b8a4e5 .wp-block-column .jet-form-builder__field-wrap .input_number_commander input[type=number]{
+    /*display:flex;*/
+    /*flex-direction: row;*/
+    justify-content: center;
+    align-items: center;
+    width:4em;
+    /*position:relative;
+    margin-left: 30px;*/
+}
+
+#fraise {
+    width:5em;
+    display: block;
+    position:relative;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#pamplemousse {
+    width:5em;
+    display: block;
+    position:relative;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#framboise {
+    width:5em;
+    display: block;
+    position:relative;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#citron {
+    width:5em;
+    display: block;
+    position:relative;
+    margin-left:auto;
+    margin-right:auto;
+}
 
 /* Écrans de moins de 768px */
 @media (max-width: 768px) {
+    h1 {
+        
+      }
+
     h2 {
-      /*font-size: 1.8em;*/
+      
     }
   }
   
-  /* Écrans de moin de 480 px */
-  @media (max-width: 480px) {
-    h2 {
-      /*font-size: 1.5em;*/
+  /* Écrans de moin de 500 px */
+  @media (max-width: 600px) {
+    body {
+        
     }
-  }
+    
+    body nav {
+        
+    }
 
+    h1 {
+        
+      }
+
+    h2 {
+      
+    }
+
+    .my-custom-header a img {
+        display : flex;
+        width : 100px;
+        min-width:100px;
+        padding-top:15px;
+    }
+}
+
+@media (max-width: 400px) {
+    body {
+        
+    }
+    
+    body nav {
+        
+    }
+
+    h1 {
+        
+      }
+
+    h2 {
+      
+    }
+
+    .my-custom-header a img {
+        display : flex;
+        width : 70px;
+        min-width:70px;
+        padding-top:15px;
+    }
+}
+
+@media (max-width: 370px) {
+    body {
+        
+    }
+    
+    body nav {
+        
+    }
+
+    h1 {
+        
+      }
+
+    h2 {
+      
+    }
+
+    .my-custom-header a img {
+        display : flex;
+        width : 50px;
+        min-width:50px;
+        padding-top:10px;
+    }
+}
 
