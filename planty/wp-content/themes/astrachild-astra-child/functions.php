@@ -32,7 +32,7 @@ function my_custom_header() {
     ?>
     <header class="my-custom-header">
         <a href="http://127.0.0.1/ocdevwp-projet6/planty/" title="Planty : accueil" >
-            <img src="http://127.0.0.1/ocdevwp-projet6/planty/wp-content/uploads/2024/10/Logo-1.png" title="Planty : accueil" alt="Planty : accueil" class="logo_header" />
+            <img src="http://127.0.0.1/ocdevwp-projet6/planty/wp-content/uploads/2024/10/Logo-1.png" title="Planty : accueil" alt="Planty : accueil" class="logo_header" id="id_img_logo_header" />
         </a>
 
         <?php
