@@ -1,6 +1,17 @@
 <?php 
 /* Child theme generated with WPS Child Theme Generator */
-            
+
+/* Import police Syne google font */
+function ajout_font_syne_head() {
+    ?>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap" rel="stylesheet">
+    <?php
+}
+add_action('wp_head', 'ajout_font_syne_head');
+
+
 if ( ! function_exists( 'b7ectg_theme_enqueue_styles' ) ) {            
     add_action( 'wp_enqueue_scripts', 'b7ectg_theme_enqueue_styles' );
     
