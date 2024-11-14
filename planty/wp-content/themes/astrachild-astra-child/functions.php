@@ -31,13 +31,6 @@ function my_theme_setup() {
 }
 add_action( 'after_setup_theme', 'my_theme_setup' );
 
-
-/* Header avec astra_header() 
-function my_custom_header_content() {
-    echo '<div class="custom-notice">Welcome to my site!</div>';
-}
-add_action('astra_header', 'my_custom_header_content');*/
-
 /* Custom header */
 function my_custom_header() {
     ?>
@@ -62,7 +55,7 @@ function my_custom_header() {
 add_action('astra_header', 'my_custom_header');
 
 
-/* Custom menu +/- et css */
+/* Custom menu +/- Admin et css Commander */
 function modify_menu_items_based_on_login($items, $args) {
     // Boucle sur chaque élément du menu.
     foreach ($items as $key => $item) {
@@ -80,7 +73,6 @@ function modify_menu_items_based_on_login($items, $args) {
     return $items;
 }
 add_filter('wp_nav_menu_objects', 'modify_menu_items_based_on_login', 10, 2);
-
 
 /* Custom footer */
 function my_custom_footer () {
